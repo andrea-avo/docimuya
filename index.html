@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOCIMUYA - PT. INDOKANCING MAKMUR JAYA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Questrial&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="index.html" class="logo-container">
+        <div class="logo-box">doci<br />muya</div>
+      </a>
+
+      <ul>
+        <li>
+          <a onclick="openNav()" class="menu-trigger">
+            <img src="asset/11.png" alt="Menu" />
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <header id="dynamic-header"></header>
+
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <div class="overlay-content">
+        <a href="index.html">Home</a>
+        <a href="product.html">Product</a>
+        <a href="career.html">Career</a>
+      </div>
+    </div>
+
+    <main>
+      <div id="splash-screen">
+        <div class="splash-buttons-row">
+          <img src="asset/2.png" class="splash-btn-img" />
+          <img src="asset/1.png" class="splash-btn-img" />
+          <img src="asset/3.png" class="splash-btn-img" />
+        </div>
+      </div>
+
+      <div id="content">
+        <article class="card">
+          <h2>About Us</h2>
+          <p>
+            Born from the dedication of
+            <strong>PT. Indokancing Makmur Jaya</strong>,
+            <strong>docimuya</strong>
+            has been a cornerstone of Indonesia’s garment accessory industry
+            since 1992. With a legacy spanning over three decades, we have grown
+            into a manufacturing leader specializing in premium buttons for the
+            dynamic world of fashion. By merging modern innovation with
+            meticulous quality control, our products embody a perfect balance of
+            strength and beauty. To us, buttons are never just an afterthought
+            they are fundamental elements that breathe life, value, and
+            character into every piece of clothing.
+          </p>
+        </article>
+
+        <article class="card">
+          <h2>Our Products</h2>
+          <div class="product-scroll-container">
+            <div class="product-card">
+              <h3>Metal<br />Button</h3>
+            </div>
+            <div class="product-card">
+              <h3>Shell<br />Button</h3>
+            </div>
+            <div class="product-card">
+              <h3>Polyester<br />Button</h3>
+            </div>
+            <div class="product-card">
+              <h3>Resin<br />Button</h3>
+            </div>
+            <div class="product-card">
+              <h3>Wooden<br />Button</h3>
+            </div>
+            <div class="see-all-card">
+              <a href="product.html" class="see-all-btn">
+                See All <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="career-showcase">
+          <div class="career-inner">
+            <h2>Career</h2>
+            <p>
+              We are not just looking for employees; we are looking for
+              innovators. Join <strong>PT. Indokancing Makmur Jaya</strong> and
+              become a part of the future of the global fashion accessory
+              industry.
+            </p>
+            <a href="carier.html" class="glass-btn"> View Openings </a>
+          </div>
+        </article>
+      </div>
+
+      <aside>
+        <article class="card profile">
+          <figure>
+            <img src="asset/11.png" />
+          </figure>
+          <h3>docimuya</h3>
+          <p>Indonesia</p>
+        </article>
+      </aside>
+    </main>
+
+    <footer>
+      <p>&#169; 2026 &bull; docimuya</p>
+      <div class="social-icons">
+        <i class="fa-solid fa-envelope"></i>
+        <i class="fa-solid fa-phone"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+
+      <div class="footer-img">
+        <img src="asset/2.png" />
+        <img src="asset/1.png" />
+        <img src="asset/3.png" />
+        <img src="asset/9.png" />
+        <img src="asset/4.png" />
+      </div>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
